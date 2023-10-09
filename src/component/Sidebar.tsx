@@ -19,7 +19,7 @@ function Sidebar() {
         { name: "EX", link: "/", icon: LuSettings },
     ];
     const [open, setOpen] = useState(true);
-    const [theme, setTheme] = useState(null);
+    const [theme, setTheme] = useState("system");
     useEffect(() => {
         if (window.matchMedia("prefer-color-schema: dark").matches) {
             setTheme("dark");
