@@ -110,98 +110,98 @@ function Hiragana() {
         },
     ];
 
-    const dakuonHandakuonYoon = [
-        {
-            id: 11,
-            name: "Dakuon",
-            details: [
-                { romanji: "が", hiragana: "ga", translate: "" },
-                { romanji: "ぎ", hiragana: "gi", translate: "" },
-                { romanji: "ぐ", hiragana: "gu", translate: "" },
-                { romanji: "げ", hiragana: "ge", translate: "" },
-                { romanji: "ご", hiragana: "go", translate: "" },
+    // const dakuonHandakuonYoon = [
+    //     {
+    //         id: 11,
+    //         name: "Dakuon",
+    //         details: [
+    //             { romanji: "が", hiragana: "ga", translate: "" },
+    //             { romanji: "ぎ", hiragana: "gi", translate: "" },
+    //             { romanji: "ぐ", hiragana: "gu", translate: "" },
+    //             { romanji: "げ", hiragana: "ge", translate: "" },
+    //             { romanji: "ご", hiragana: "go", translate: "" },
 
-                { romanji: "ざ", hiragana: "za", translate: "" },
-                { romanji: "じ", hiragana: "ji", translate: "" },
-                { romanji: "ず", hiragana: "zu", translate: "" },
-                { romanji: "ぜ", hiragana: "ze", translate: "" },
-                { romanji: "ぞ", hiragana: "zo", translate: "" },
+    //             { romanji: "ざ", hiragana: "za", translate: "" },
+    //             { romanji: "じ", hiragana: "ji", translate: "" },
+    //             { romanji: "ず", hiragana: "zu", translate: "" },
+    //             { romanji: "ぜ", hiragana: "ze", translate: "" },
+    //             { romanji: "ぞ", hiragana: "zo", translate: "" },
 
-                { romanji: "だ", hiragana: "da", translate: "" },
-                { romanji: "ぢ", hiragana: "ji", translate: "" },
-                { romanji: "づ", hiragana: "zu", translate: "" },
-                { romanji: "で", hiragana: "de", translate: "" },
-                { romanji: "ど", hiragana: "do", translate: "" },
+    //             { romanji: "だ", hiragana: "da", translate: "" },
+    //             { romanji: "ぢ", hiragana: "ji", translate: "" },
+    //             { romanji: "づ", hiragana: "zu", translate: "" },
+    //             { romanji: "で", hiragana: "de", translate: "" },
+    //             { romanji: "ど", hiragana: "do", translate: "" },
 
-                { romanji: "ば", hiragana: "ba", translate: "" },
-                { romanji: "び", hiragana: "bi", translate: "" },
-                { romanji: "ぶ", hiragana: "bu", translate: "" },
-                { romanji: "べ", hiragana: "be", translate: "" },
-                { romanji: "ぼ", hiragana: "bo", translate: "" },
-            ],
-        },
-        {
-            id: 12,
-            name: "Handakuon",
-            details: [
+    //             { romanji: "ば", hiragana: "ba", translate: "" },
+    //             { romanji: "び", hiragana: "bi", translate: "" },
+    //             { romanji: "ぶ", hiragana: "bu", translate: "" },
+    //             { romanji: "べ", hiragana: "be", translate: "" },
+    //             { romanji: "ぼ", hiragana: "bo", translate: "" },
+    //         ],
+    //     },
+    //     {
+    //         id: 12,
+    //         name: "Handakuon",
+    //         details: [
 
-                { romanji: "ぱ", hiragana: "pa", translate: "" },
-                { romanji: "ぴ", hiragana: "pi", translate: "" },
-                { romanji: "ぷ", hiragana: "pu", translate: "" },
-                { romanji: "ぺ", hiragana: "pe", translate: "" },
-                { romanji: "ぽ", hiragana: "po", translate: "" },
-            ],
-        },
-        {
-            id: 13,
-            name: "Yoon",
-            details: [
-                { romanji: "きゃ", hiragana: "kya", translate: "" },
-                { romanji: "きゅ", hiragana: "kyu", translate: "" },
-                { romanji: "きょ", hiragana: "kyo", translate: "" },
+    //             { romanji: "ぱ", hiragana: "pa", translate: "" },
+    //             { romanji: "ぴ", hiragana: "pi", translate: "" },
+    //             { romanji: "ぷ", hiragana: "pu", translate: "" },
+    //             { romanji: "ぺ", hiragana: "pe", translate: "" },
+    //             { romanji: "ぽ", hiragana: "po", translate: "" },
+    //         ],
+    //     },
+    //     {
+    //         id: 13,
+    //         name: "Yoon",
+    //         details: [
+    //             { romanji: "きゃ", hiragana: "kya", translate: "" },
+    //             { romanji: "きゅ", hiragana: "kyu", translate: "" },
+    //             { romanji: "きょ", hiragana: "kyo", translate: "" },
 
-                { romanji: "しゃ", hiragana: "sha", translate: "" },
-                { romanji: "しゅ", hiragana: "shu", translate: "" },
-                { romanji: "しょ", hiragana: "sho", translate: "" },
+    //             { romanji: "しゃ", hiragana: "sha", translate: "" },
+    //             { romanji: "しゅ", hiragana: "shu", translate: "" },
+    //             { romanji: "しょ", hiragana: "sho", translate: "" },
 
-                { romanji: "ちゃ", hiragana: "cha", translate: "" },
-                { romanji: "ちゅ", hiragana: "chu", translate: "" },
-                { romanji: "ちょ", hiragana: "cho", translate: "" },
+    //             { romanji: "ちゃ", hiragana: "cha", translate: "" },
+    //             { romanji: "ちゅ", hiragana: "chu", translate: "" },
+    //             { romanji: "ちょ", hiragana: "cho", translate: "" },
 
-                { romanji: "にゃ", hiragana: "nya", translate: "" },
-                { romanji: "にゅ", hiragana: "nyu", translate: "" },
-                { romanji: "にょ", hiragana: "nyo", translate: "" },
+    //             { romanji: "にゃ", hiragana: "nya", translate: "" },
+    //             { romanji: "にゅ", hiragana: "nyu", translate: "" },
+    //             { romanji: "にょ", hiragana: "nyo", translate: "" },
 
-                { romanji: "ひゃ", hiragana: "hya", translate: "" },
-                { romanji: "ひゅ", hiragana: "hyu", translate: "" },
-                { romanji: "ひょ", hiragana: "hyo", translate: "" },
+    //             { romanji: "ひゃ", hiragana: "hya", translate: "" },
+    //             { romanji: "ひゅ", hiragana: "hyu", translate: "" },
+    //             { romanji: "ひょ", hiragana: "hyo", translate: "" },
 
-                { romanji: "みゃ", hiragana: "mya", translate: "" },
-                { romanji: "みゅ", hiragana: "myu", translate: "" },
-                { romanji: "みょ", hiragana: "myo", translate: "" },
+    //             { romanji: "みゃ", hiragana: "mya", translate: "" },
+    //             { romanji: "みゅ", hiragana: "myu", translate: "" },
+    //             { romanji: "みょ", hiragana: "myo", translate: "" },
 
-                { romanji: "りゃ", hiragana: "rya", translate: "" },
-                { romanji: "りゅ", hiragana: "ryu", translate: "" },
-                { romanji: "りょ", hiragana: "ryo", translate: "" },
+    //             { romanji: "りゃ", hiragana: "rya", translate: "" },
+    //             { romanji: "りゅ", hiragana: "ryu", translate: "" },
+    //             { romanji: "りょ", hiragana: "ryo", translate: "" },
 
-                { romanji: "ぎゃ", hiragana: "gya", translate: "" },
-                { romanji: "ぎゅ", hiragana: "gyu", translate: "" },
-                { romanji: "ぎょ", hiragana: "gyo", translate: "" },
+    //             { romanji: "ぎゃ", hiragana: "gya", translate: "" },
+    //             { romanji: "ぎゅ", hiragana: "gyu", translate: "" },
+    //             { romanji: "ぎょ", hiragana: "gyo", translate: "" },
 
-                { romanji: "じゃ", hiragana: "ja", translate: "" },
-                { romanji: "じゅ", hiragana: "ju", translate: "" },
-                { romanji: "じょ", hiragana: "jo", translate: "" },
+    //             { romanji: "じゃ", hiragana: "ja", translate: "" },
+    //             { romanji: "じゅ", hiragana: "ju", translate: "" },
+    //             { romanji: "じょ", hiragana: "jo", translate: "" },
 
-                { romanji: "びゃ", hiragana: "bya", translate: "" },
-                { romanji: "びゅ", hiragana: "byu", translate: "" },
-                { romanji: "びょ", hiragana: "byo", translate: "" },
+    //             { romanji: "びゃ", hiragana: "bya", translate: "" },
+    //             { romanji: "びゅ", hiragana: "byu", translate: "" },
+    //             { romanji: "びょ", hiragana: "byo", translate: "" },
 
-                { romanji: "ぴゃ", hiragana: "pya", translate: "" },
-                { romanji: "ぴゅ", hiragana: "pyu", translate: "" },
-                { romanji: "ぴょ", hiragana: "pyo", translate: "" },
-            ],
-        },
-    ]
+    //             { romanji: "ぴゃ", hiragana: "pya", translate: "" },
+    //             { romanji: "ぴゅ", hiragana: "pyu", translate: "" },
+    //             { romanji: "ぴょ", hiragana: "pyo", translate: "" },
+    //         ],
+    //     },
+    // ]
 
     // const navigate = useNavigate();
 
