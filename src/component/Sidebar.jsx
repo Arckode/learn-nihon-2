@@ -7,7 +7,7 @@ import { BsMoon } from "react-icons/bs";
 import { BsSun } from "react-icons/bs";
 import { TbLanguageHiragana } from "react-icons/tb";
 import { TbLanguageKatakana } from "react-icons/tb";
-import { Link, Route, Routes } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 
 function Sidebar() {
