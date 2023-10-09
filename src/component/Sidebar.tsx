@@ -2,11 +2,11 @@ import React from "react";
 import "../App.css";
 import { HiMenuAlt3 } from "react-icons/hi";
 import { LuLayoutDashboard } from "react-icons/lu";
-import { LuSettings } from "react-icons/lu";
+// import { LuSettings } from "react-icons/lu";
 import { BsMoon } from "react-icons/bs";
 import { BsSun } from "react-icons/bs";
 import { TbLanguageHiragana } from "react-icons/tb";
-import { TbLanguageKatakana } from "react-icons/tb";
+// import { TbLanguageKatakana } from "react-icons/tb";
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 
@@ -14,9 +14,9 @@ function Sidebar() {
     const menus = [
         { name: "Dashboard", link: "/learn-nihon/", icon: LuLayoutDashboard },
         { name: "Hiragana", link: "/learn-nihon/hiragana", icon: TbLanguageHiragana },
-        { name: "Katakana", link: "/learn-nihon/katakana", icon: TbLanguageKatakana },
-        { name: "Setting", link: "/", icon: LuSettings, margin: true },
-        { name: "EX", link: "/", icon: LuSettings },
+        // { name: "Katakana", link: "/learn-nihon/katakana", icon: TbLanguageKatakana },
+        // { name: "Setting", link: "/", icon: LuSettings, margin: true },
+        // { name: "EX", link: "/", icon: LuSettings },
     ];
     const [open, setOpen] = useState(true);
     const [theme, setTheme] = useState("system");
@@ -96,13 +96,6 @@ function Sidebar() {
                         >
                             {theme == "dark" ? "Dark Mode" : "Light Mode"}
                         </h2>
-                        {/* <h2
-              className={`${
-                open && "hidden"
-              } absolute left-48 bg-white font-semibold whitespace-pre text-gray-900 rounded-md drop-shadow-lg px-0 py-0 w-0 overflow-hidden group-hover:px-2 group-hover:py-1 group-hover:left-14 group-hover:duration-300 group-hover:w-fit `}
-            >
-              {theme == "dark" ? "Dark Mode" : "Light Mode"}
-            </h2> */}
                     </button>
                 </div>
             </div>
