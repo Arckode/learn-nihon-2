@@ -1,6 +1,6 @@
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 
-function Hiragana(props) {
+function Hiragana() {
     const hiraganas = [
         {
             id: 1,
@@ -203,11 +203,11 @@ function Hiragana(props) {
         },
     ]
 
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
 
-    const hiraganaTest = (hiragana) => {
-        navigate("/hiraganaTest", { state: hiragana });
-    };
+    // const hiraganaTest = (hiragana) => {
+    //     navigate("/hiraganaTest", { state: hiragana });
+    // };
 
     return (
         <>
@@ -237,7 +237,7 @@ function Hiragana(props) {
                                                     </p>
                                                 </div>
                                             ))}
-                                            <button onClick={() => {
+                                            {/* <button onClick={() => {
                                                 hiraganaTest(hiragana);
                                             }}
                                                 className="relative inline-flex items-center justify-center p-4 px-5 py-3 overflow-hidden font-medium text-indigo-600 rounded-lg shadow-2xl group">
@@ -247,15 +247,8 @@ function Hiragana(props) {
                                                     <span className="absolute bottom-0 right-0 w-24 h-24 -mr-10 bg-pink-500 rounded-full blur-md"></span>
                                                 </span>
                                                 <span className="relative text-white">Test</span>
-                                            </button>
+                                            </button> */}
                                         </div>
-                                        {/* <a className="p-5 pl-10"
-                      onClick={() => {
-                        hiraganaTest(hiragana);
-                      }}
-                    >
-                      <button>Test</button>
-                    </a> */}
                                     </div>
                                 </div>
                             );

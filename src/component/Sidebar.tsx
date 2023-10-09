@@ -12,8 +12,8 @@ import { useState, useEffect } from "react";
 
 function Sidebar() {
     const menus = [
-        { name: "Dashboard", link: "/learn-nihon/", icon: LuLayoutDashboard },
-        { name: "Hiragana", link: "/learn-nihon/hiragana", icon: TbLanguageHiragana },
+        { name: "Dashboard", link: "/learn-nihon/", icon: LuLayoutDashboard, margin: false },
+        { name: "Hiragana", link: "/learn-nihon/hiragana", icon: TbLanguageHiragana, margin: false },
         // { name: "Katakana", link: "/learn-nihon/katakana", icon: TbLanguageKatakana },
         // { name: "Setting", link: "/", icon: LuSettings, margin: true },
         // { name: "EX", link: "/", icon: LuSettings },
